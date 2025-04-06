@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Week 2</title>
+    </head>
+    <body>
+        <img src="https://images.pexels.com/photos/2382665/pexels-photo-2382665.jpeg" alt="Farmers image" width="300px" height="300px">
+        <ol style="list-style-type:lower-roman;"><b>Registered Members</b>
+            <li>Claire Wafula</li>
+            <li>Joy Rotich</li>
+            <li>Cleophas Kibe</li>
+            <li>Moses Shimanyula</li>
+            <li>Isaac Mvurya</li>
+            <li>John Kamande</li>
+        </ol>
+        <form>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="John Doe" required><br>
+            <label>Address</label>
+            <input type="text" name="address" placeholder="123 Nairobi" required><br>
+            <label>Pasword</label>
+            <input type="password" name="password" placeholder="**********" required><br>
+            <label>Phone Number</label>
+            <input type="text" name="phone" pattern="[0-9] {10}" placeholder="0712345678" required><br>
+            <label>Date</label>
+            <input type="date" name="date" placeholder="31-12-2024" required><br>
+            <label for="animals">Animals Reared</label><br>
+            <select name="animals" id="animals">
+                <option value="cows">Cows</option>
+                <option value="sheep">Sheep</option>
+                <option value="goats">Goats</option>
+                <option value="chicken">Chicken</option>
+                <option value="turkey">Turkey</option>
+            </select><br>
+            <label>Do you agree to the processing of your data?</label>
+            <input type="checkbox" name="termsAgreed" required>
+        </form>
+        <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid black; padding: 8px;">Name</th>
+                    <th style="border: 1px solid black; padding: 8px;">Address</th>
+                    <th style="border: 1px solid black; padding: 8px;">Mobile</th>
+                    <th style="border: 1px solid black; padding: 8px;">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">Claire Wafula</td>
+                    <td style="border: 1px solid black; padding: 8px;">Pipeline, Nairobi</td>
+                    <td style="border: 1px solid black; padding: 8px;">0734521234</td>
+                    <td style="border: 1px solid black; padding: 8px;">claire123@gmail.com</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">Cleophas Kibe</td>
+                    <td style="border: 1px solid black; padding: 8px;">Kimathi, Nyeri</td>
+                    <td style="border: 1px solid black; padding: 8px;">0765433567</td>
+                    <td style="border: 1px solid black; padding: 8px;">Kibecleo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">Moses Shimanyula</td>
+                    <td style="border: 1px solid black; padding: 8px;">Umoja, Nairobi</td>
+                    <td style="border: 1px solid black; padding: 8px;">0798212548</td>
+                    <td style="border: 1px solid black; padding: 8px;">Mose55@gmail.com</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">Joy Rotich</td>
+                    <td style="border: 1px solid black; padding: 8px;">Githunguri, Kiambu</td>
+                    <td style="border: 1px solid black; padding: 8px;">0721245623</td>
+                    <td style="border: 1px solid black; padding: 8px;">rotichj@gmail.com</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black; padding: 8px;">Isaac Mvurya</td>
+                    <td style="border: 1px solid black; padding: 8px;">Pipeline, Nairobi</td>
+                    <td style="border: 1px solid black; padding: 8px;">011261894</td>
+                    <td style="border: 1px solid black; padding: 8px;">IsaacMvurya@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>        
+    </body>
+</html>
